@@ -13,20 +13,22 @@
     
          href="/index.html"><img class="w-6 pr-2 " src="image/locked.png" alt="">Secured area</a>
         <nav class="">
-            <button class="text-white text-end flex">
+            <button id="mobile_icon" class="text-white text-end flex sm:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                   </svg>
                   
             </button>
-            <ul class="absolute bg-blue-400 w-full left-0 top-10 p-4 text-center ">
-                <li class="mb-2"><a href="#" class="text-white font-semibold">Home</a></li>
-                <li class="mb-2"><a href="#" class="text-white font-semibold">Contact</a></li>
-                <li class="mb-2"><a href="#" class="text-white font-semibold">Login</a></li>
-                <li class="mb-2"><a href="#" class="text-white font-semibold">Sign In</a></li>
+            <ul id="main_menu" class="absolute bg-blue-400 w-full left-0 top-10 p-4 text-center hidden sm:block sm:relative sm:top-0 sm:flex sm:justify-around">
+                <li class="mb-2 sm:mb-0 sm:ml-5"><a href="#" class="text-white font-semibold hover:text-blue-900 hover:transition-colors">Home</a></li>
+                <li class="mb-2 sm:mb-0 sm:ml-5" ><a href="#" class="text-white font-semibold hover:text-blue-900 hover:transition-colors">Contact</a></li>
+                <li class="mb-2 sm:mb-0 sm:ml-5"><a href="#" class="text-white font-semibold hover:text-blue-900 hover:transition-colors">Login</a></li>
+                <li class="mb-2 sm:mb-0 sm:ml-5"><a href="#" class="text-white font-semibold hover:text-blue-900 hover:transition-colors">Sign In</a></li>
             </ul>
         </nav>
     </div>
     </header>
+
+    <script src="script.js" type="module"></script>
 </body>
 </html>
